@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+  
+
+website:
+  title: "LAB 2"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - page1.qmd
+      - page2.qmd
+
+format:
+  html:
+    theme: spacestone
+    css: styles.css
+    toc: true
+
+
+
